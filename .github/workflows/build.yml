@@ -30,7 +30,7 @@ jobs:
             if [ -d "$dir" ]; then
               group_id=$(echo $dir | cut -d'/' -f2)
               artifact_id=$(echo $dir | cut -d'/' -f3)
-              version=$(echo $dir | cut -d'/' -f5)
+              version=$(echo $dir | cut -d'/' -f4)
               
               echo "artifacts.push({" >> script.js
               echo "  name: '${artifact_id}'," >> script.js
