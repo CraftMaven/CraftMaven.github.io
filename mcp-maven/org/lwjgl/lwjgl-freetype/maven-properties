@@ -1,0 +1,10 @@
+<metadata>
+    <groupId>org.lwjgl</groupId>
+    <artifactId>lwjgl-freetype</artifactId>
+    <version>3.3.3</version>
+    <versioning>
+        <versions>
+            <version>3.3.3</version>
+        </versions>
+    </versioning>
+</metadata>
