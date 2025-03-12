@@ -1,0 +1,4 @@
+collections:
+  mcp-maven:
+    output: true
+    permalink: /mcp/:path/
