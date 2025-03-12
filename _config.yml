@@ -1,0 +1,17 @@
+# Basic site settings
+title: Directory Listing
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+
+# Default layout for directory indexes
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "directory_listing"
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
