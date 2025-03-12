@@ -5,7 +5,7 @@ const artifacts = [];
 artifacts.push({
   name: 'lwjgl',
   groupId: 'org',
-  latestVersion: '',
+  latestVersion: 'lwjgl-freetype',
   files: '2',
   description: 'Artifact from org',
   lastUpdated: '2025-03-12',
@@ -16,7 +16,7 @@ artifacts.push({
 artifacts.push({
   name: 'lwjgl',
   groupId: 'org',
-  latestVersion: '',
+  latestVersion: 'lwjgl-glfw',
   files: '2',
   description: 'Artifact from org',
   lastUpdated: '2025-03-12',
@@ -27,7 +27,7 @@ artifacts.push({
 artifacts.push({
   name: 'lwjgl',
   groupId: 'org',
-  latestVersion: '',
+  latestVersion: 'lwjgl-jemalloc',
   files: '2',
   description: 'Artifact from org',
   lastUpdated: '2025-03-12',
