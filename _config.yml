@@ -1,4 +1,15 @@
-collections:
-  mcp-maven:
-    output: true
-    permalink: /mcp/:path/
+remote_theme: jekyll-theme-directory
+title: CraftMaven
+description: Maven for Minecraft
+
+# Directory listing settings
+directory:
+  output: true
+  folders:
+    - path: /mcp-maven
+      name: MCP
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
