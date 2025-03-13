@@ -16,6 +16,17 @@ artifacts.push({
 artifacts.push({
   name: 'lwjgl-glfw',
   groupId: 'lwjgl',
+  latestVersion: '1.0.0',
+  files: '1',
+  description: 'Artifact from lwjgl',
+  lastUpdated: '2025-03-13',
+  versions: 1,
+  license: 'MIT',
+  category: 'APIs'
+});
+artifacts.push({
+  name: 'lwjgl-glfw',
+  groupId: 'lwjgl',
   latestVersion: '3.3.3',
   files: '2',
   description: 'Artifact from lwjgl',
