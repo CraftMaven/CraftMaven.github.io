@@ -3,34 +3,34 @@ name = 'CraftMaven';
 filters = ["MCP", "Forge", "Spigot", "APIs"];
 const artifacts = [];
 artifacts.push({
-  name: 'lwjgl',
-  groupId: 'org',
-  latestVersion: 'lwjgl-freetype',
+  name: 'lwjgl-freetype',
+  groupId: 'lwjgl',
+  latestVersion: '3.3.3',
   files: '2',
-  description: 'Artifact from org',
-  lastUpdated: '2025-03-12',
+  description: 'Artifact from lwjgl',
+  lastUpdated: '2025-03-13',
   versions: 1,
   license: 'MIT',
   category: 'APIs'
 });
 artifacts.push({
-  name: 'lwjgl',
-  groupId: 'org',
-  latestVersion: 'lwjgl-glfw',
+  name: 'lwjgl-glfw',
+  groupId: 'lwjgl',
+  latestVersion: '3.3.3',
   files: '2',
-  description: 'Artifact from org',
-  lastUpdated: '2025-03-12',
+  description: 'Artifact from lwjgl',
+  lastUpdated: '2025-03-13',
   versions: 1,
   license: 'MIT',
   category: 'APIs'
 });
 artifacts.push({
-  name: 'lwjgl',
-  groupId: 'org',
-  latestVersion: 'lwjgl-jemalloc',
+  name: 'lwjgl-jemalloc',
+  groupId: 'lwjgl',
+  latestVersion: '3.3.3',
   files: '2',
-  description: 'Artifact from org',
-  lastUpdated: '2025-03-12',
+  description: 'Artifact from lwjgl',
+  lastUpdated: '2025-03-13',
   versions: 1,
   license: 'MIT',
   category: 'APIs'
