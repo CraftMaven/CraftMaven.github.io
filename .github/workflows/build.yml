@@ -26,11 +26,11 @@ jobs:
           echo "const artifacts = [];" >> script.js
           
           # Loop through artifacts in maven folder
-          for dir in mcp-maven/*/*/*; do
+          for dir in mcp-maven/*/*/*/*; do
             if [ -d "$dir" ]; then
-              group_id=$(echo $dir | cut -d'/' -f2)
-              artifact_id=$(echo $dir | cut -d'/' -f3)
-              version=$(echo $dir | cut -d'/' -f4)
+              group_id=$(echo $dir | cut -d'/' -f3)
+              artifact_id=$(echo $dir | cut -d'/' -f4)
+              version=$(echo $dir | cut -d'/' -f5)
               
               echo "artifacts.push({" >> script.js
               echo "  name: '${artifact_id}'," >> script.js
